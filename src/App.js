@@ -70,7 +70,7 @@ const Grid = ({ name, cars, regions, onWindowOpened, onRegionChange }) => (
             columnDefs={[
                 { headerName: 'Make', field: 'make', cellRenderer: params => `${params.value}!` },
                 { headerName: 'Model', field: 'model', valueFormatter: params => `${params.value}!` },
-                { headerName: 'Price', field: 'region' }
+                { headerName: 'Region', field: 'region' }
             ]}
             rowData={cars}
         >
